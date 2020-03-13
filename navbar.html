@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+  <div id="nav-toggle-menu">
+    <div class="sideBar-menu-item"><i class="fas fa-newspaper"></i> Мои объявления </div>
+    <div class="sideBar-menu-item"><i class="fas fa-coins"></i> Мои пакеты </div>
+    <div class="sideBar-menu-item"><i class="fas fa-wrench"></i> Настройки </div>
+    <div class="sideBar-menu-item" id="exit"><i class="fas fa-sign-out-alt"></i> Выход</div>
+  </div>
+<nav>
+  <div class="nav-toggle-button" id="nav-toggle-button"><i class="fas fa-bars"></i></div>
+    <div class="nav-logo">
+      <div>O</div>
+      <div class="nav-logo-green">L</div>
+      <div>Z</div>
+    </div>
+
+
+    <div class="nav-items  ml-1">
+      <div class="nav-item">Тарифы</div>
+      <div class="nav-item">Помощь</div>
+      <div class="nav-item">Контакты</div>
+    </div>
+    <div class="nav-items nav-item-searh">
+      <form action="submite" class="nav-form-search w-100 mx-1">
+        <input type="text" name="search" id="search" placeholder="Найти аренду..." class="nav-search-input">
+        <button type="submit" class="nav-search-btn"><i class="fas fa-search bg-none"></i></button>
+      </form>
+  
+    </div>
+    <div class="nav-items ml-1">
+      <div class="nav-item-add">
+        <div class="bg-left"></div>
+        <div class="bg-right"></div>
+        <div class="nav-item-add-text">
+          <b>+</b> Подать объявление
+        </div>
+      </div>
+      <div class="nav-item ml-1" id="login" >
+        <i class="fas fa-sign-in-alt"></i>
+        Личный кабинет
+      </div>
+      <div class="ml-1">
+        <div id="profile" hidden>
+          <div class="profile">
+            <div class="avatar"></div>
+            <div class="user-name">Big Baby <i class="fas fa-caret-down"></i></div>
+          </div>
+          <di   v class="toggle-menu" id="toggle-menu" hidden>
+            <div class="toggle-menu-item"><i class="fas fa-newspaper"></i> Мои объявления </div>
+            <div class="toggle-menu-item"><i class="fas fa-coins"></i> Мои пакеты </div>
+            <div class="toggle-menu-item"><i class="fas fa-wrench"></i> Настройки </div>
+            <div class="toggle-menu-item" id="exit"><i class="fas fa-sign-out-alt"></i> Выход</div>
+          </di>
+        </div>
+
+      </div>
+    </div>
+    <div class="small-login" hidden><i class="far fa-user"></i></div>
+  
+
+</nav>
+<script src="/js/main.js"></script>
+<script src="https://kit.fontawesome.com/b194ce6fcf.js"></script>
+</body>
+</html>
